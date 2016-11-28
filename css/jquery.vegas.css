@@ -1,0 +1,15 @@
+.vegas-background {
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+	z-index: -2;
+    max-width: none !important; /* counteracts global img modification by twitter bootstrap library */
+}
+
+.vegas-overlay,
+.vegas-background {
+	        user-select: none;
+	    -ms-user-select: none;
+	   -moz-user-select: none;
+	 -khtml-user-select: none;
+	-webkit-user-select: none;
+}
